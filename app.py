@@ -3,7 +3,12 @@ import pandas as pd
 import time
 import uuid
 from google import genai
-from google.genai.errors import ResourceExhaustedError, APIError
+# ... (앞부분 생략) ...
+import time
+import uuid
+from google import genai
+from google.genai import ResourceExhaustedError, APIError # <--- 수정된 부분
+# ... (뒷부분 생략) ...
 
 # --- 상수 및 설정 ---
 APP_TITLE = "🛍️ 구매 결정 도우미 챗봇"
