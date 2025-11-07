@@ -3,11 +3,7 @@ import pandas as pd
 import time
 import uuid
 from google import genai
-# ... (앞부분 생략) ...
-import time
-import uuid
-from google import genai
-from google.genai import ResourceExhaustedError, APIError # <--- 수정된 부분
+import random
 # ... (뒷부분 생략) ...
 
 # --- 상수 및 설정 ---
